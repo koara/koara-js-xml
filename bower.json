@@ -1,0 +1,10 @@
+{
+  "name": "koara-html",
+  "description": "Koara to Html parser written in Javascript",
+  "license": "Apache 2.0",
+  "keywords": ["koara", "markup", "html"],
+  "main": "koara.js",
+  "ignore": ["lib", "node_modules", "test", "index.js", "gulpfile.js", ".*"],
+  "dependencies": {},
+  "devDependencies": {}
+}
