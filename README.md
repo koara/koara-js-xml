@@ -52,7 +52,7 @@ Browser:
         parser.modules = ['paragraphs', 'headings', 'lists', 'links', 'images', 'formatting', 'blockquotes', 'code'];
 
         //Parse string or file and generate AST
-        var doc = this.parser.parse('Hello World!');
+        var doc = parser.parse('Hello World!');
         
         //Render as Xml
         var renderer = new koaraXml.XmlRenderer();
