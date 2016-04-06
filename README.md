@@ -63,3 +63,9 @@ Browser:
   </body>
 </html>
 ```
+
+## Configuration
+### Parser
+### Renderer
+- `declarationTag`: 
+  Add a declaration tag to the XML document.
