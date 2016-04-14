@@ -48,7 +48,7 @@ The AST is created by the [core koara parser](https://github.com/koara/koara-js)
       <script type="text/javascript">
         var parser = new koara.Parser();
         var result = parser.parse("Hello World!");
-        var renderer = new koaraxml.xml5Renderer();
+        var renderer = new koaraXml.XmlRenderer();
         result.accept(renderer);
         document.write(renderer.getOutput());
       </script>
