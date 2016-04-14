@@ -2,7 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/koara/koara-js-xml.svg)](https://travis-ci.org/koara/koara-js-xml)
 [![Coverage Status](https://img.shields.io/coveralls/koara/koara-js-xml.svg)](https://coveralls.io/github/koara/koara-js-xml?branch=master)
-[![Latest Version](https://img.shields.io/npm/v/koara-xml.svg)
+[![Latest Version](https://img.shields.io/npm/v/koara-xml.svg?maxAge=2592000)]()
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/koara/koara-js-xml/blob/master/LICENSE)
 
 # Koara-js-xml
