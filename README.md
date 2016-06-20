@@ -10,7 +10,7 @@
 The AST is created by the [core koara parser](https://github.com/koara/koara-js).
 
 ## Getting started
-- Download [ZIP file](https://github.com/koara/koara-js-xml/archive/0.6.2.zip)
+- Download [ZIP file](https://github.com/koara/koara-js-xml/archive/0.12.0.zip)
 - Npm
 
   ```bash
