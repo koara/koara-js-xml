@@ -58,6 +58,10 @@ The AST is created by the [core koara parser](https://github.com/koara/koara-js)
 
 ## Configuration
 You can configure the Renderer:
+-  **renderer.hardWrap**  
+   Default:	`false`
+   
+   Specify if newlines should be hard-wrapped (return-based linebreaks) by default.
 
 -  **renderer.declarationTag**  
    Default:	`null`
