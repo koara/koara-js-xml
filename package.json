@@ -1,7 +1,7 @@
 {
   "name": "koara-xml",
   "description": "Koara to XML parser written in Javascript",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "keywords": [
     "koara",
     "markup",
@@ -27,7 +27,7 @@
     "lib"
   ],
   "dependencies": {
-    "koara": "^0.13.0"
+    "koara": "^0.14.0"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
