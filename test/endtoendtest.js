@@ -5,6 +5,7 @@ var koaraXml = require('../lib/koara-xml');
 describe("Koara End2End Tests", function() {
 	
 	var parser;
+    var kd = fs.readFileSync("testsuite/input/end2end.kd");
 
 	beforeEach(function() {
 		parser = new koara.Parser();;
@@ -1031,9 +1032,8 @@ describe("Koara End2End Tests", function() {
 	});
 
 	function assertOutput(file, modules) {
-		var kd = fs.readFileSync("testsuite/input/end2end.kd");
 		var xml = fs.readFileSync("testsuite/output/xml/end2end/" + file + ".xml");
-		
+
 		parser.modules = modules;
         var document = parser.parse(kd);                    
         var renderer = new koaraXml.XmlRenderer();
