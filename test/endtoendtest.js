@@ -1,5 +1,5 @@
 var fs = require('fs');
-var koara = require('koara');
+var koara = require('@koara/koara');
 var koaraXml = require('../lib/koara-xml');
 
 describe("Koara End2End Tests", function() {

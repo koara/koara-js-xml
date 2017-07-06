@@ -2,7 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/koara/koara-js-xml.svg)](https://travis-ci.org/koara/koara-js-xml)
 [![Coverage Status](https://img.shields.io/coveralls/koara/koara-js-xml.svg)](https://coveralls.io/github/koara/koara-js-xml?branch=master)
-[![Latest Version](https://img.shields.io/npm/v/koara-xml.svg?maxAge=2592000)]()
+[![Latest Version](https://img.shields.io/npm/v/%40koara%2Fxml.svg?maxAge=2592000)]()
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/koara/koara-js-xml/blob/master/LICENSE)
 
 # Koara-js-xml
@@ -10,11 +10,11 @@
 The AST is created by the [core koara parser](https://github.com/koara/koara-js).
 
 ## Getting started
-- Download [ZIP file](https://github.com/koara/koara-js-xml/archive/0.14.0.zip)
+- Download [ZIP file](https://github.com/koara/koara-js-xml/archive/0.15.1.zip)
 - Npm
 
   ```bash
-  npm install koara-xml --save-dev
+  npm install @koara/xml --save-dev
   ```
   
 - Bower
@@ -27,8 +27,8 @@ The AST is created by the [core koara parser](https://github.com/koara/koara-js)
 - Node
 
   ```js
-  var koara = require('koara');
-  var koaraXml = require('koara-xml');
+  var koara = require('@koara/koara');
+  var koaraXml = require('@koara/xml');
 
   var parser = new koara.Parser();
   var result = parser.parse("Hello World!");

@@ -1,6 +1,6 @@
 'use strict';
 
-var koara = require('koara');
+var koara = require('@koara/koara');
 var koaraXml = require('../lib/koara-xml');
 
 describe("XmlRendererTest", function() {
